@@ -16,7 +16,7 @@ names = names_string.split(", ")
 
 # Choosing a random member of the list by
 # generating an index with the random method
-chosen_one = random.randint(0, len(names))
+chosen_one = random.randint(0, len(names) - 1)
 
 # Printing the chosen member to pay the meal
 print(f"{names[chosen_one]} is going to buy the meal today!")
